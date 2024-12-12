@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93CC80632D0A8A85002A7F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93CC803F2D0A8A84002A7F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93CC80462D0A8A84002A7F46;
+			remoteInfo = CaveWave;
+		};
+		93CC806D2D0A8A85002A7F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93CC803F2D0A8A84002A7F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93CC80462D0A8A84002A7F46;
+			remoteInfo = CaveWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93CC80472D0A8A84002A7F46 /* CaveWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaveWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC80622D0A8A85002A7F46 /* CaveWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaveWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC806C2D0A8A85002A7F46 /* CaveWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaveWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		93CC80742D0A8A85002A7F46 /* Exceptions for "CaveWave" folder in "CaveWave" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 93CC80462D0A8A84002A7F46 /* CaveWave */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93CC80492D0A8A84002A7F46 /* CaveWave */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				93CC80742D0A8A85002A7F46 /* Exceptions for "CaveWave" folder in "CaveWave" target */,
+			);
+			path = CaveWave;
+			sourceTree = "<group>";
+		};
+		93CC80652D0A8A85002A7F46 /* CaveWaveTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CaveWaveTests;
+			sourceTree = "<group>";
+		};
+		93CC806F2D0A8A85002A7F46 /* CaveWaveUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CaveWaveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93CC80442D0A8A84002A7F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC805F2D0A8A85002A7F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC80692D0A8A85002A7F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93CC803E2D0A8A84002A7F46 = {
+			isa = PBXGroup;
+			children = (
+				93CC80492D0A8A84002A7F46 /* CaveWave */,
+				93CC80652D0A8A85002A7F46 /* CaveWaveTests */,
+				93CC806F2D0A8A85002A7F46 /* CaveWaveUITests */,
+				93CC80482D0A8A84002A7F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93CC80482D0A8A84002A7F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93CC80472D0A8A84002A7F46 /* CaveWave.app */,
+				93CC80622D0A8A85002A7F46 /* CaveWaveTests.xctest */,
+				93CC806C2D0A8A85002A7F46 /* CaveWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93CC80462D0A8A84002A7F46 /* CaveWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CC80752D0A8A85002A7F46 /* Build configuration list for PBXNativeTarget "CaveWave" */;
+			buildPhases = (
+				93CC80432D0A8A84002A7F46 /* Sources */,
+				93CC80442D0A8A84002A7F46 /* Frameworks */,
+				93CC80452D0A8A84002A7F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93CC80492D0A8A84002A7F46 /* CaveWave */,
+			);
+			name = CaveWave;
+			packageProductDependencies = (
+			);
+			productName = CaveWave;
+			productReference = 93CC80472D0A8A84002A7F46 /* CaveWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93CC80612D0A8A85002A7F46 /* CaveWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CC807A2D0A8A85002A7F46 /* Build configuration list for PBXNativeTarget "CaveWaveTests" */;
+			buildPhases = (
+				93CC805E2D0A8A85002A7F46 /* Sources */,
+				93CC805F2D0A8A85002A7F46 /* Frameworks */,
+				93CC80602D0A8A85002A7F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93CC80642D0A8A85002A7F46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93CC80652D0A8A85002A7F46 /* CaveWaveTests */,
+			);
+			name = CaveWaveTests;
+			packageProductDependencies = (
+			);
+			productName = CaveWaveTests;
+			productReference = 93CC80622D0A8A85002A7F46 /* CaveWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93CC806B2D0A8A85002A7F46 /* CaveWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CC807D2D0A8A85002A7F46 /* Build configuration list for PBXNativeTarget "CaveWaveUITests" */;
+			buildPhases = (
+				93CC80682D0A8A85002A7F46 /* Sources */,
+				93CC80692D0A8A85002A7F46 /* Frameworks */,
+				93CC806A2D0A8A85002A7F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93CC806E2D0A8A85002A7F46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93CC806F2D0A8A85002A7F46 /* CaveWaveUITests */,
+			);
+			name = CaveWaveUITests;
+			packageProductDependencies = (
+			);
+			productName = CaveWaveUITests;
+			productReference = 93CC806C2D0A8A85002A7F46 /* CaveWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93CC803F2D0A8A84002A7F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					93CC80462D0A8A84002A7F46 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					93CC80612D0A8A85002A7F46 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 93CC80462D0A8A84002A7F46;
+					};
+					93CC806B2D0A8A85002A7F46 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 93CC80462D0A8A84002A7F46;
+					};
+				};
+			};
+			buildConfigurationList = 93CC80422D0A8A84002A7F46 /* Build configuration list for PBXProject "CaveWave" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93CC803E2D0A8A84002A7F46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93CC80482D0A8A84002A7F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93CC80462D0A8A84002A7F46 /* CaveWave */,
+				93CC80612D0A8A85002A7F46 /* CaveWaveTests */,
+				93CC806B2D0A8A85002A7F46 /* CaveWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CC80452D0A8A84002A7F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC80602D0A8A85002A7F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC806A2D0A8A85002A7F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93CC80432D0A8A84002A7F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC805E2D0A8A85002A7F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC80682D0A8A85002A7F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93CC80642D0A8A85002A7F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93CC80462D0A8A84002A7F46 /* CaveWave */;
+			targetProxy = 93CC80632D0A8A85002A7F46 /* PBXContainerItemProxy */;
+		};
+		93CC806E2D0A8A85002A7F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93CC80462D0A8A84002A7F46 /* CaveWave */;
+			targetProxy = 93CC806D2D0A8A85002A7F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93CC80762D0A8A85002A7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaveWave/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cave.wave.com.CaveWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93CC80772D0A8A85002A7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaveWave/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cave.wave.com.CaveWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93CC80782D0A8A85002A7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93CC80792D0A8A85002A7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93CC807B2D0A8A85002A7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cave.wave.com.CaveWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaveWave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaveWave";
+			};
+			name = Debug;
+		};
+		93CC807C2D0A8A85002A7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cave.wave.com.CaveWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaveWave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaveWave";
+			};
+			name = Release;
+		};
+		93CC807E2D0A8A85002A7F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cave.wave.com.CaveWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaveWave;
+			};
+			name = Debug;
+		};
+		93CC807F2D0A8A85002A7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cave.wave.com.CaveWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaveWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93CC80422D0A8A84002A7F46 /* Build configuration list for PBXProject "CaveWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC80782D0A8A85002A7F46 /* Debug */,
+				93CC80792D0A8A85002A7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CC80752D0A8A85002A7F46 /* Build configuration list for PBXNativeTarget "CaveWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC80762D0A8A85002A7F46 /* Debug */,
+				93CC80772D0A8A85002A7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CC807A2D0A8A85002A7F46 /* Build configuration list for PBXNativeTarget "CaveWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC807B2D0A8A85002A7F46 /* Debug */,
+				93CC807C2D0A8A85002A7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CC807D2D0A8A85002A7F46 /* Build configuration list for PBXNativeTarget "CaveWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC807E2D0A8A85002A7F46 /* Debug */,
+				93CC807F2D0A8A85002A7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93CC803F2D0A8A84002A7F46 /* Project object */;
+}
