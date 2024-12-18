@@ -17,8 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.title = @"zkh";
-//    self.view.backgroundColor = UIColor.redColor;
     
     self.label = ({
         UILabel *label = [[UILabel alloc] init];
@@ -27,7 +25,6 @@
         label.textColor = UIColor.redColor;
         label.font = [UIFont systemFontOfSize:20];
         label.text = @"zkh";
-//        label.font = [UIFont fa_fontWithSize:<#CGFloat height#> fontName:@"PingFangSC-Medium"];
         label.textAlignment = NSTextAlignmentCenter;
         label.layer.masksToBounds = YES;
         label.layer.cornerRadius = label.height * 0.5;
