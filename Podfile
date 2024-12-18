@@ -6,7 +6,7 @@ target 'CaveWave' do
   use_frameworks!
 
   # Pods for CaveWave
-	pod 'YYKit'
+	pod 'YYKit', '~> 1.0.9'
 	pod 'BabyBluetooth','~> 0.7.0'
 
   target 'CaveWaveTests' do

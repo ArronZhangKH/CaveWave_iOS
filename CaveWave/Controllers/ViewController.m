@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSMutableDictionary *dictM = [NSMutableDictionary dictionary];
+    [dictM setObject:@"" forKey:@""];
+    
     self.label = ({
         UILabel *label = [[UILabel alloc] init];
         label.frame = CGRectMake(100, 100, 100, 40);
